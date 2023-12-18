@@ -18,7 +18,16 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Paths */
+    "paths": {
+      "assets/*": ["./src/assets/*"],
+      "pods/*": ["./src/pods/*"],
+      "scenes/*": ["./src/scenes/*"],
+      "router/*": ["./src/router/*"],
+      "layout/*": ["./src/layout/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
