@@ -1,4 +1,4 @@
-import { PrincipalLayout } from "layout/principal";
+import { PrincipalLayout } from "layout/principal/principal.layout";
 import React from "react";
 
 const NormalGameScene: React.FC = () => {
